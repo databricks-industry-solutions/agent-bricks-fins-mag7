@@ -20,11 +20,11 @@ By the end of this lab, you'll have created:
 ```
 ┌─────────────────────────┐    ┌─────────────────────────┐    ┌─────────────────────────┐
 │   Knowledge Assistant   │    │      Genie Space        │    │  Unity Catalog Function │
-│                        │    │   (NL to SQL Agent)     │    │  (Vega-Lite Charts)     │
-│ - 10-K documents       │    │                        │    │                        │
-│ - 10-Q filings         │    │ - Ticker data          │    │ - Chart generation     │
-│ - Annual reports       │    │ - Financial tables     │    │ - Data visualization    │
-│ - Earnings materials   │    │ - Market data          │    │ - Interactive graphs   │
+│                         │    │   (NL to SQL Agent)     │    │  (Vega-Lite Charts)     │
+│ - 10-K documents        │    │                         │    │                         │
+│ - 10-Q filings          │    │ - Ticker data           │    │ - Chart generation      │
+│ - Annual reports        │    │ - Financial tables      │    │ - Data visualization    │
+│ - Earnings materials    │    │ - Market data           │    │ - Interactive graphs    │
 └─────────────────────────┘    └─────────────────────────┘    └─────────────────────────┘
              │                             │                             │
              └─────────────┐               │               ┌─────────────┘
@@ -32,28 +32,28 @@ By the end of this lab, you'll have created:
                            ▼               ▼               ▼
                     ┌─────────────────────────────────────────────┐
                     │         Multi-Agent Supervisor              │
-                    │                                           │
-                    │  Orchestrates all agents to answer        │
-                    │  complex financial analysis questions     │
+                    │                                             │
+                    │  Orchestrates all agents to answer          │
+                    │  complex financial analysis questions       │
                     └──────────────────┬──────────────────────────┘
                                        │
                               (optional)│
                                        ▼
                     ┌─────────────────────────────────────────────┐
-                    │      You.com MCP Server (Web Search)       │
-                    │                                           │
-                    │  Real-time web search for current news,   │
-                    │  market updates, and general knowledge    │
+                    │      You.com MCP Server (Web Search)        │
+                    │                                             │
+                    │  Real-time web search for current news,     │
+                    │  market updates, and general knowledge      │
                     └─────────────────────────────────────────────┘
 
                                        │
                                        ▼
                     ┌─────────────────────────────────────────────┐
                     │         Chatbot App (Databricks App)        │
-                    │                                           │
-                    │  React + Express full-stack web app with   │
-                    │  streaming chat UI, Lakebase persistence,  │
-                    │  and Vega-Lite chart rendering             │
+                    │                                             │
+                    │  React + Express full-stack web app with    │
+                    │  streaming chat UI, Lakebase persistence,   │
+                    │  and Vega-Lite chart rendering              │
                     └─────────────────────────────────────────────┘
 ```
 

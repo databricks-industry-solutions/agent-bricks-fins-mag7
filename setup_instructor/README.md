@@ -37,7 +37,7 @@ Open `run_all.ipynb` and run each cell in order. This will:
 2. Create the Knowledge Assistant with financial documents
 3. Create the Genie Space for SQL queries
 4. Register the Vega-Lite UC Function for visualizations
-5. Create the Multi-Agent Supervisor (discovers the above artifacts automatically)
+5. Create the Supervisor Agent (discovers the above artifacts automatically)
 6. Deploy the Chatbot App with Lakebase database and all required permissions
 7. **(Optional)** Add the You.com MCP server for web search capabilities
 
@@ -55,7 +55,7 @@ Run each notebook in order. Steps 1-4 can be executed independently, but step 5 
 | 3 | `02_instructor_setup_genie.ipynb` | Genie Space for natural language SQL queries against ticker data |
 | 4 | `03_create_vegalite_uc_function_simple.ipynb` | UC Function for generating Vega-Lite chart specs |
 | 4b | `03b_create_youdotcom_uc_functions.ipynb` | **(Optional)** You.com web search, content extraction, and research UC functions |
-| 5 | `04_instructor_setup_sa.ipynb` | Multi-Agent Supervisor that orchestrates all three bricks above |
+| 5 | `04_instructor_setup_sa.ipynb` | Supervisor Agent that orchestrates all three bricks above |
 | 6 | `06_deploy_chatbot_app.ipynb` | Chatbot App with Lakebase DB, connected to the Supervisor Agent |
 | 7 | `05_create_mcp_server_OPTIONAL.ipynb` | **(Optional)** Adds You.com web search MCP server to the Supervisor |
 
@@ -87,7 +87,7 @@ Adds three UC functions that call the [You.com MCP server](https://docs.you.com/
 
 ### Step 6: Chatbot App Deployment
 
-The chatbot app (`06_deploy_chatbot_app.ipynb`) deploys a full-stack web application that provides a chat UI for your Multi-Agent Supervisor:
+The chatbot app (`06_deploy_chatbot_app.ipynb`) deploys a full-stack web application that provides a chat UI for your Supervisor Agent:
 
 - **Frontend**: React + Vite with streaming responses, Vega-Lite chart rendering, and chat history
 - **Backend**: Express.js server with Vercel AI SDK for Databricks agent integration
