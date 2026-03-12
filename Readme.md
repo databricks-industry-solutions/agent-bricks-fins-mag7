@@ -83,7 +83,9 @@ These notebooks handle the complex configuration automatically, allowing you to 
 ## Lab Structure
 
 ### Phase 0: Configuration (REQUIRED FIRST STEP)
-0. Update `config.py` with your catalog, schema, and volume settings. For **Vocareum labs** you'll usually either want to use the default 'dbacademy' catalog, or the default catalog created for the user, e.g. 'labuser13875106_1773320552'. If you choose 'dbacademy', **the admin/instructor will need to grant 'manage' permissions** to the user(s).
+0. Update `config.py` with your catalog, schema, and volume settings.
+
+For **Vocareum labs** you'll usually either want to use the default 'dbacademy' catalog, or the default catalog created for the user, e.g. 'labuser13875106_1773320552'. If you choose 'dbacademy', **the admin/instructor will need to grant 'manage' permissions** to the user(s).
 
 ### Phase 1: Data Setup and Infrastructure
 1. Run table setup notebook to create ticker data tables
